@@ -1,7 +1,7 @@
 import telebot, json, os, time, datetime
 from telebot.types import ReplyKeyboardMarkup, KeyboardButton
 
-TOKEN = '8365097962:AAHi3W-fSspUVwteUqEui1uPnWjd1n5HnBA'
+TOKEN = '8365097962:AAFeogaH2yndWe05GB947y-tA7yyebhCej8'
 
 bot = telebot.TeleBot(TOKEN)
 
@@ -145,3 +145,4 @@ def back(m):
     bot.send_message(m.chat.id,"Меню",reply_markup=menu())
 
 bot.infinity_polling()
+
