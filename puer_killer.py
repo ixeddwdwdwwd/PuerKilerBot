@@ -1,8 +1,8 @@
 import telebot, json, os, datetime, schedule, time, threading, random
 from telebot.types import ReplyKeyboardMarkup, KeyboardButton
 
-TOKEN = '8365097962:AAFeogaH2yndWe05GB947y-tA7yyebhCej8'          # ←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←
-CHAT_ID = 622993612                    # ←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←← твой ID (узнай у @userinfobot)
+TOKEN = '8365097962:AAFeogaH2yndWe05GB947y-tA7yyebhCej8'      
+CHAT_ID = 622993612                
 
 bot = telebot.TeleBot(TOKEN)
 DATA_FILE = 'king_compass.json'
@@ -387,3 +387,4 @@ def global_back(message):
 # ←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←←
 
 bot.infinity_polling()
+
