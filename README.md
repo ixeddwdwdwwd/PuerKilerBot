@@ -1,2 +1,2 @@
 # PuerKilerBot
-bot убивающий пуера
+Telegram bot убивающий puer 
